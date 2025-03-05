@@ -7,7 +7,7 @@ on:
     - cron:  '0 */6 * * *'    # Every 6 hours
   workflow_dispatch:
 permissions:
-  actions: write-all
+  actions: write
 jobs:
   generate-znn-node-info:
     runs-on: ubuntu-latest
