@@ -36,4 +36,3 @@ jobs:
         file_glob: true
         overwrite: true
         body: ""
-    - uses: gautamkrishnar/keepalive-workflow@v2 
